@@ -1,0 +1,59 @@
+
+Topics:
+
+  0. Simple Tic-Tac-Toe/Tile Matching
+    React is not meant for Game Development
+    Note: ** Game Development is not using react **
+
+    1. How to structure the DIVs and css for a small application
+    2. Complete application feel
+    3. CSS Transitions/Animation
+
+  1. Publishing Applications with different page routings
+
+    including _redirects file with below contents,
+
+      /* /index.html 200
+
+      include it in public folder
+
+      only then the pages will work properly, else it won't
+  
+  2. Using Fetch for API requests
+      CRUD:
+        Read - GET
+            Reading the all the data from the Server
+        Create - POST
+        Update - PUT/PATCH
+        Delete - DELETE
+
+  4. Implementing CRUD operations using react & axios
+    using Fetch Done
+
+Next Session:
+
+  3. Axios vs Fetch
+
+      Axios - separate library which helps in handling API requests and other API related operations
+
+        Instance: axios allows to keep multiple instances ( Multiple server instances )
+
+        It uses XHR for api interaction
+
+        Reduces the JSON.stringfy and JSON.parsing ( response.json() )
+
+        Interceptors:
+          added advantage where we can intercept both request & response
+
+      Fetch - JavaScript inbuilt API/fetch for handling API requests & other API related operations
+
+      Fetch is also capable of doing all the things that axios can do
+
+      But axios do those in a simpler way
+
+Task:
+
+  Day - 27: https://docs.google.com/document/d/1-qvT8VkH2Bvv16hYm-qNiwfusRSt9ACJmceJLpLV9x8/edi
+  use mock-api or the api in the task sheet
+
+  Note: use mock-api if Your using the flow discussed in the session
